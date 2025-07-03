@@ -1,0 +1,46 @@
+/* Corps de la page centré verticalement et horizontalement */
+body {
+  font-family: 'didot',serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* centre verticalement */
+  align-items: center;      /* centre horizontalement */
+  height: 100vh;            /* plein écran */
+  margin: 0;
+  background-image: url(sentiers-fluviaux-flou-sur-la-route.jpg);
+  background-position: center;
+}
+
+/* Style du compteur (chiffre) */
+#affichage {
+  font-size: 7rem;
+  color: #333;
+  margin-bottom: 20px;
+  user-select: none; /* Empêche la sélection du texte */
+}
+
+/* Style des boutons */
+button {
+  font-size: 3rem;
+  padding: 10px 25px;
+  margin: 10px 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e0e54f;
+  color: rgb(253, 1, 1);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  user-select: none; /* Empêche la sélection du texte au clic */
+}
+
+/* Changement de couleur au survol */
+button:hover {
+  background-color: #e6ab0a;
+}
+
+/* Style pour désactiver le bouton (si besoin) */
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+/* fais par chatgpt */
